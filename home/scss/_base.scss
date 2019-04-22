@@ -1,0 +1,74 @@
+body {
+	background: $bgcolor;
+	color: black;
+	text-align: center;
+	padding-top: 2em;
+	display: grid;
+}
+
+h1 {
+	font-size: 4em;
+	font-family: 'Copperplate';
+	text-shadow: 4px 4px 6px #FFFFFF;
+}
+
+h2 {
+	font-size: 3em;
+	font-family: 'Copperplate';
+	text-shadow: 4px 4px 6px #FFFFFF;
+}
+
+h5 {
+	font-size: 1.15em;
+	padding-top: 1.5em;
+	font-family: 'Baskerville';
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(3, 1fr);
+  font-family: 'Baskerville';
+  font-weight: bold;
+  font-size: 4em;
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+  padding-top: 1.5em; 
+}
+.two { 
+  grid-column: 2;
+  grid-row: 1;
+  padding-top: 1.5em; 
+}
+.three {
+  grid-column: 3;
+  grid-row: 1;
+  padding-top: 1.5em; 
+}
+.four {
+  grid-column: 1;
+  grid-row: 2;
+  padding-top: 2em; 
+}
+.five {
+  grid-column: 2;
+  grid-row: 2;
+  padding-top: 2em; 
+}
+.six {
+  grid-column: 3;
+  grid-row: 2;
+  padding-top: 2em; 
+}
